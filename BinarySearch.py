@@ -1,6 +1,6 @@
 def binary_search(item_list,item):
 	first = 0
-	last = len(item_list)-1
+	last = len(item_list)-1 // participating in hacktoberfest 2020
 	found = False
 	while( first<=last and not found):
 		mid = (first + last)//2
